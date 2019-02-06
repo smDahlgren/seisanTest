@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="card">
+    <div class="card-body border border-dark rounded">
+  <div class="text-center mb-1">Query products by name or sku, or hit search to show all:</div>
+  <div class="line"></div>
+
+    <form action="/api/products/name" method="get">
+      <div class="form-group mt-3">
+        <label for="username">Search product name</label>
+        <input type="text" id="name" placeholder="Search product name" class="form-control">
+      </div>
+      <button type="search" id="searchName" class="rounded bg-dark p-2 px-3 text-success mb-3">Search product name</button>
+    </form>
+    <form action="/api/products/sku" method="get">
+      <div class="form-group">
+        <label for="sku">Search Sku</label>
+        <input type="text" id="sku" placeholder="Search Sku" class="form-control">
+      </div>
+      <button type="search" id="searchSku" class="rounded bg-dark p-2 px-3 text-success">Search Sku</button>
+    </form>
+  </div>
+</div>
+</div>
