@@ -23,7 +23,7 @@ app.use(express.static('public'));
 var port = process.env.PORT || 3000;
 var DB_UN = process.env.DB_UN;
 var DB_PW = process.env.DB_PW;
-var URL_VAR = 'http://localhost:3000/';
+var URL_VAR = 'https://seisan-test.herokuapp.com/';
 
 var Products     = require('./models/products.js');
 var Contact      = require('./models/contact.js');

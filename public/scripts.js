@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var URL_VAR = 'http://localhost:3000/';
+  var URL_VAR = 'https://seisan-test.herokuapp.com/';
 
   $("#searchName").click(function(event) {
 
